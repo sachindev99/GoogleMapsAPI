@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="20.425" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/himaniwadhawan/eclipse-workspace/APIFramework/target/test-classes:/Users/himaniwadhawan/eclipse-workspace/APIFramework/target/classes:/Users/himaniwadhawan/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/himaniwadhawan/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/himaniwadhawan/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/himaniwadhawan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/himaniwadhawan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/himaniwadhawan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/himaniwadhawan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/himaniwadhawan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/himaniwadhawan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/himaniwadhawan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/himaniwadhawan/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/himaniwadhawan/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/himaniwadhawan/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/himaniwadhawan/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/himaniwadhawan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-java/7.16.1/cucumber-java-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-core/7.16.1/cucumber-core-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-gherkin/7.16.1/cucumber-gherkin-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.16.1/cucumber-gherkin-messages-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/datatable/7.16.1/datatable-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-plugin/7.16.1/cucumber-plugin-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/docstring/7.16.1/docstring-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/html-formatter/21.3.0/html-formatter-21.3.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/junit-xml-formatter/0.3.0/junit-xml-formatter-0.3.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/himaniwadhawan/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-junit/7.16.1/cucumber-junit-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/himaniwadhawan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/himaniwadhawan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/Users/himaniwadhawan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/Users/himaniwadhawan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/Users/himaniwadhawan/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/himaniwadhawan/.m2/repository/org/codehaus/groovy/groovy/3.0.21/groovy-3.0.21.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/himaniwadhawan/eclipse-workspace/APIFramework/target/surefire/surefirebooter-20241027134217007_3.jar /Users/himaniwadhawan/eclipse-workspace/APIFramework/target/surefire 2024-10-27T13-42-16_864-jvmRun1 surefire-20241027134217007_1tmp surefire_0-20241027134217007_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/himaniwadhawan/eclipse-workspace/APIFramework/target/test-classes:/Users/himaniwadhawan/eclipse-workspace/APIFramework/target/classes:/Users/himaniwadhawan/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/himaniwadhawan/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/himaniwadhawan/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/himaniwadhawan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/himaniwadhawan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/himaniwadhawan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/himaniwadhawan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/himaniwadhawan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/himaniwadhawan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/himaniwadhawan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/himaniwadhawan/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/himaniwadhawan/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/himaniwadhawan/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/himaniwadhawan/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/himaniwadhawan/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-java/7.16.1/cucumber-java-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-core/7.16.1/cucumber-core-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-gherkin/7.16.1/cucumber-gherkin-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.16.1/cucumber-gherkin-messages-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/datatable/7.16.1/datatable-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-plugin/7.16.1/cucumber-plugin-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/docstring/7.16.1/docstring-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/html-formatter/21.3.0/html-formatter-21.3.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/junit-xml-formatter/0.3.0/junit-xml-formatter-0.3.0.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/himaniwadhawan/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/himaniwadhawan/.m2/repository/io/cucumber/cucumber-junit/7.16.1/cucumber-junit-7.16.1.jar:/Users/himaniwadhawan/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/himaniwadhawan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/himaniwadhawan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/Users/himaniwadhawan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/Users/himaniwadhawan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/Users/himaniwadhawan/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/himaniwadhawan/.m2/repository/org/codehaus/groovy/groovy/3.0.21/groovy-3.0.21.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/himaniwadhawan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/himaniwadhawan/eclipse-workspace/APIFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/himaniwadhawan/eclipse-workspace/APIFramework/target/surefire/surefirebooter-20241027134217007_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.7+7"/>
+    <property name="user.name" value="himaniwadhawan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.7+7"/>
+    <property name="localRepository" value="/Users/himaniwadhawan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/gd/0by1zjgs6c533f7h19tc30580000gn/T/"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="/Users/himaniwadhawan/eclipse-workspace/APIFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/himaniwadhawan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.7+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Verify if Place is being successfully added using AddPlaceAPI #1" classname="Validating Place APIs" time="8.08">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.67563,
+        "lng": 33.56677
+    },
+    "accuracy": 50,
+    "name": "AAHouse",
+    "phonenumber": "23132135",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "langauage": "English",
+    "address": "Word cross center",
+    "website": "https://rahulshettyacademy.com"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if Place is being successfully added using AddPlaceAPI #2" classname="Validating Place APIs" time="4.926">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.67563,
+        "lng": 33.56677
+    },
+    "accuracy": 50,
+    "name": "White House",
+    "phonenumber": "43743242",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "langauage": "French-CA",
+    "address": "Montreal",
+    "website": "https://rahulshettyacademy.com"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if Place is being successfully added using AddPlaceAPI #3" classname="Validating Place APIs" time="3.461">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.67563,
+        "lng": 33.56677
+    },
+    "accuracy": 50,
+    "name": "THouse",
+    "phonenumber": "64734432",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "langauage": "English-CA",
+    "address": "Vancouver",
+    "website": "https://rahulshettyacademy.com"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if the Delete Place functionality is working" classname="Validating Place APIs" time="2.567"/>
+</testsuite>

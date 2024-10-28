@@ -1,0 +1,285 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.67563,
+        "lng": 33.56677
+    },
+    "accuracy": 50,
+    "name": "AAHouse",
+    "phonenumber": "23132135",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "langauage": "English",
+    "address": "Word cross center",
+    "website": "https://rahulshettyacademy.com"
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Oct 2024 20:42:22 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "cb728f591f4cf6d50c31d857a1b319ff",
+    "scope": "APP",
+    "reference": "f68fd2b117cf7c34f1b84defcdd3bc52f68fd2b117cf7c34f1b84defcdd3bc52",
+    "id": "f68fd2b117cf7c34f1b84defcdd3bc52"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=cb728f591f4cf6d50c31d857a1b319ff
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=cb728f591f4cf6d50c31d857a1b319ff
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Oct 2024 20:42:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 225
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.67563",
+        "longitude": "33.56677"
+    },
+    "accuracy": "50",
+    "name": "AAHouse",
+    "phone_number": "",
+    "address": "Word cross center",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": ""
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.67563,
+        "lng": 33.56677
+    },
+    "accuracy": 50,
+    "name": "White House",
+    "phonenumber": "43743242",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "langauage": "French-CA",
+    "address": "Montreal",
+    "website": "https://rahulshettyacademy.com"
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Oct 2024 20:42:28 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "6f8080dc20a7291965340ceb17db8dc7",
+    "scope": "APP",
+    "reference": "5e91b0cda7230bebf94aa5a384ea15345e91b0cda7230bebf94aa5a384ea1534",
+    "id": "5e91b0cda7230bebf94aa5a384ea1534"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6f8080dc20a7291965340ceb17db8dc7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=6f8080dc20a7291965340ceb17db8dc7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Oct 2024 20:42:30 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 220
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.67563",
+        "longitude": "33.56677"
+    },
+    "accuracy": "50",
+    "name": "White House",
+    "phone_number": "",
+    "address": "Montreal",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": ""
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.67563,
+        "lng": 33.56677
+    },
+    "accuracy": 50,
+    "name": "THouse",
+    "phonenumber": "64734432",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "langauage": "English-CA",
+    "address": "Vancouver",
+    "website": "https://rahulshettyacademy.com"
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Oct 2024 20:42:32 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f1fc9654a63aed66bcebb3c1145a942f",
+    "scope": "APP",
+    "reference": "bd2b2432e33ee11f07169697d52d7912bd2b2432e33ee11f07169697d52d7912",
+    "id": "bd2b2432e33ee11f07169697d52d7912"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f1fc9654a63aed66bcebb3c1145a942f
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f1fc9654a63aed66bcebb3c1145a942f
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Oct 2024 20:42:33 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 216
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.67563",
+        "longitude": "33.56677"
+    },
+    "accuracy": "50",
+    "name": "THouse",
+    "phone_number": "",
+    "address": "Vancouver",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": ""
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f1fc9654a63aed66bcebb3c1145a942f"
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Oct 2024 20:42:36 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
